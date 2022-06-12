@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task 2</title>
 </head>
+
 <body>
     <pre>
         Задание:
@@ -17,13 +19,16 @@
         alert("Вычисление объема цилиндра.");
         //  V=π * r в квадрате * h
         let V;
-        const Pi = 3.1415926535; 
+        const Pi = 3.1415926535;
         let r = +prompt("Введите радиус цилиндра");
         let h = +prompt("Введите высоту цилиндра");
 
         V = Pi * r * r * h;
+        if (r == 0 || !(Number)) && (h == 0 || !(Number)) {
+
+        }
         alert(`Объем цилиндра с высотой ${h} и радиусом ${r} = ${V}`);
     </script>
 </body>
-</html>
 
+</html>

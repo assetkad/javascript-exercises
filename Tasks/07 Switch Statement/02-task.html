@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task 2</title>
 </head>
+
 <body>
     <pre>
         Задание:
@@ -12,7 +14,24 @@
         если значение 2 - "весна" и т.д. Выведите значение переменной result на экран. Решите задачу используя конструкцию switch.
     </pre>
     <script>
-        
+        let season = +prompt('1,2,3,4?', '');
+        let result;
+        switch (season) {
+            case 1:
+                result = 'зима';
+                break;
+            case 2:
+                result = 'весна';
+                break;
+            case 3:
+                result = 'лето!';
+                break;
+            case 4:
+                result = 'осень';
+                break;
+        }
+        alert(result);
     </script>
 </body>
+
 </html>
